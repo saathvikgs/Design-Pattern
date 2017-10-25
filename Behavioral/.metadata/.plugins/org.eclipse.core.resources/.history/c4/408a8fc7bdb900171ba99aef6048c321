@@ -1,0 +1,12 @@
+import java.util.*;
+public class Dog extends Animal{
+	public Dog() {
+		super();
+		setSound("Bark");
+		setFlyType(new CantFly());
+	}
+	
+	public void wagATail() {
+		System.out.println("I can wag a tail");
+	}
+}

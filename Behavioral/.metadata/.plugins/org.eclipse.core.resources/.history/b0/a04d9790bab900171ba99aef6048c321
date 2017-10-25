@@ -1,0 +1,11 @@
+
+public interface Fly {
+	String fly();
+}
+
+class CanFly implements Fly {
+	@override
+	public String fly() {
+		
+	}
+}

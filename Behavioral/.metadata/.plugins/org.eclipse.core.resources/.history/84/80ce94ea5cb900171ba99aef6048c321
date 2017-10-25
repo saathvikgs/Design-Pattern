@@ -1,0 +1,8 @@
+import java.util.*;
+public class Animal {
+	private String name;
+	private double weight;
+	private int height;
+	
+	public Animal()
+}

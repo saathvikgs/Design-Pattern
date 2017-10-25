@@ -1,0 +1,8 @@
+import java.util.*;
+public class Bird {
+
+	public Bird() {
+		super();
+		setSound("Chirp");
+	}
+}

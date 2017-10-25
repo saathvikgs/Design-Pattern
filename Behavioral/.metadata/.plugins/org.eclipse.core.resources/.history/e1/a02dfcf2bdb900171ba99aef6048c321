@@ -1,0 +1,15 @@
+import java.util.*;
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		
+		Animal dog = new Dog();
+		
+		dog.setName("Joyce");
+		System.out.println(dog.getName());
+		System.out.println(dog.tryToFly());
+		dog.setFlyType(new CanFly());
+
+	}
+
+}

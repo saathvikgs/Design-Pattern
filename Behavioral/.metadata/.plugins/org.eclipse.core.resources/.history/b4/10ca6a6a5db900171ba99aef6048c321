@@ -1,0 +1,27 @@
+import java.util.*;
+public class Animal {
+	private String name;
+	private double weight;
+	private int height;
+	
+	public void setName(String newName) {
+		name = newName;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setWeight(double newWeight) {
+		weight = newWeight;
+	}
+	public double getWeight() {
+		return weight;
+	}
+	public void setHeight(int newHeight) {
+		height = newHeight;
+	}
+	public int getHeight() {
+		return height
+	}
+}
