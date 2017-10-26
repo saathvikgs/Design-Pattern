@@ -1,5 +1,4 @@
-//This interface can be implemented by many subclasses each having their own behavior for flying
-//This doesnt affect Animal class or Fly interface
+
 public interface Fly {
 	String fly();
 }

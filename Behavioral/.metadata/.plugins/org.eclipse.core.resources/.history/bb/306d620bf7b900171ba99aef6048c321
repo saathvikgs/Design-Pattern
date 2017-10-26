@@ -6,7 +6,7 @@ public class Dog extends Animal{
 		flyType = new CantFly();
 	}
 	/*BAD
-	 * Abstract what is different to the sub classes.
+	 * 
 	public void fly() {
 		System.out.println("I cant fly");
 	}*/

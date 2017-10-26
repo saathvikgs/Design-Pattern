@@ -7,7 +7,7 @@ public class Animal {
 	private int height;
 	private String sound;
 	//This is composition.
-	//Composition allows you to change the behavior of class during run time
+	//Composition allows 
 	public Fly flyType;
 	public void setName(String newName) {
 		name = newName;

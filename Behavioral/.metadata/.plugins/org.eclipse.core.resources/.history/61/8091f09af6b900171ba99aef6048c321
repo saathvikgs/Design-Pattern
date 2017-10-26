@@ -6,8 +6,7 @@ public class Animal {
 	private double weight;
 	private int height;
 	private String sound;
-	//This is composition.
-	//Composition allows you to change the behavior of class during run time
+	
 	public Fly flyType;
 	public void setName(String newName) {
 		name = newName;
@@ -41,10 +40,7 @@ public class Animal {
 	public String tryToFly() {
 		return flyType.fly();
 	}
-	
-	//this is bad
-	//Separate what is different among subclasses and the superclass
-	/*public void flying() {
+	public void flying() {
 		System.out.println("I am flying");
-	}*/
+	}
 }
